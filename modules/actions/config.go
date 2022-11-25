@@ -1,7 +1,7 @@
 package actions
 
 import (
-	"github.com/forbole/juno/v3/node/remote"
+	"github.com/Fueav/juno/node/remote"
 	"gopkg.in/yaml.v3"
 )
 

@@ -1,8 +1,8 @@
 package inflation
 
 import (
+	"github.com/Fueav/juno/modules"
 	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/forbole/juno/v3/modules"
 
 	"github.com/forbole/bdjuno/v3/database"
 	inflationsource "github.com/forbole/bdjuno/v3/modules/inflation/source"

@@ -1,12 +1,12 @@
 package actions
 
 import (
+	"github.com/Fueav/juno/modules"
+	"github.com/Fueav/juno/node"
+	"github.com/Fueav/juno/node/builder"
+	nodeconfig "github.com/Fueav/juno/node/config"
+	"github.com/Fueav/juno/types/config"
 	"github.com/cosmos/cosmos-sdk/simapp/params"
-	"github.com/forbole/juno/v3/modules"
-	"github.com/forbole/juno/v3/node"
-	"github.com/forbole/juno/v3/node/builder"
-	nodeconfig "github.com/forbole/juno/v3/node/config"
-	"github.com/forbole/juno/v3/types/config"
 
 	modulestypes "github.com/forbole/bdjuno/v3/modules/types"
 )

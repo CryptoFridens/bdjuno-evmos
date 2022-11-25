@@ -3,9 +3,9 @@ package remote
 import (
 	"fmt"
 
+	"github.com/Fueav/juno/node/remote"
 	"github.com/cosmos/cosmos-sdk/types/query"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	"github.com/forbole/juno/v3/node/remote"
 
 	stakingsource "github.com/forbole/bdjuno/v3/modules/staking/source"
 )

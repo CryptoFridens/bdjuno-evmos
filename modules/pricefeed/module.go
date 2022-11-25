@@ -1,12 +1,12 @@
 package pricefeed
 
 import (
+	"github.com/Fueav/juno/types/config"
 	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/forbole/juno/v3/types/config"
 
 	"github.com/forbole/bdjuno/v3/database"
 
-	"github.com/forbole/juno/v3/modules"
+	"github.com/Fueav/juno/modules"
 )
 
 var (

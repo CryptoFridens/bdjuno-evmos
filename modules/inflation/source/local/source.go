@@ -3,9 +3,9 @@ package local
 import (
 	"fmt"
 
+	"github.com/Fueav/juno/node/local"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	inflationtypes "github.com/evmos/evmos/v6/x/inflation/types"
-	"github.com/forbole/juno/v3/node/local"
 
 	inflationsource "github.com/forbole/bdjuno/v3/modules/inflation/source"
 )

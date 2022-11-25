@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	parsecmdtypes "github.com/forbole/juno/v3/cmd/parse/types"
-	"github.com/forbole/juno/v3/types/config"
+	parsecmdtypes "github.com/Fueav/juno/cmd/parse/types"
+	"github.com/Fueav/juno/types/config"
 
 	"github.com/forbole/bdjuno/v3/modules/feegrant"
 	"github.com/forbole/bdjuno/v3/utils"

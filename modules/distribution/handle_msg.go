@@ -1,8 +1,8 @@
 package distribution
 
 import (
+	juno "github.com/Fueav/juno/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	juno "github.com/forbole/juno/v3/types"
 
 	distrtypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
 )

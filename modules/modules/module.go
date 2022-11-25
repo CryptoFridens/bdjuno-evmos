@@ -1,8 +1,8 @@
 package modules
 
 import (
-	"github.com/forbole/juno/v3/modules"
-	"github.com/forbole/juno/v3/types/config"
+	"github.com/Fueav/juno/modules"
+	"github.com/Fueav/juno/types/config"
 
 	"github.com/forbole/bdjuno/v3/database"
 )

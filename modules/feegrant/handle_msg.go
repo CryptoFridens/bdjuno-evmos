@@ -3,9 +3,9 @@ package feegrant
 import (
 	"fmt"
 
+	juno "github.com/Fueav/juno/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	feegranttypes "github.com/cosmos/cosmos-sdk/x/feegrant"
-	juno "github.com/forbole/juno/v3/types"
 
 	"github.com/forbole/bdjuno/v3/types"
 )

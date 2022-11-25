@@ -1,12 +1,12 @@
 package main
 
 import (
+	"github.com/Fueav/juno/cmd"
+	initcmd "github.com/Fueav/juno/cmd/init"
+	parsetypes "github.com/Fueav/juno/cmd/parse/types"
+	startcmd "github.com/Fueav/juno/cmd/start"
+	"github.com/Fueav/juno/modules/messages"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/forbole/juno/v3/cmd"
-	initcmd "github.com/forbole/juno/v3/cmd/init"
-	parsetypes "github.com/forbole/juno/v3/cmd/parse/types"
-	startcmd "github.com/forbole/juno/v3/cmd/start"
-	"github.com/forbole/juno/v3/modules/messages"
 
 	migratecmd "github.com/forbole/bdjuno/v3/cmd/migrate"
 	parsecmd "github.com/forbole/bdjuno/v3/cmd/parse"
@@ -16,6 +16,7 @@ import (
 	"github.com/forbole/bdjuno/v3/database"
 	"github.com/forbole/bdjuno/v3/modules"
 
+	spikeapp "github.com/Fueav/spike-v045x/app"
 	gaiaapp "github.com/cosmos/gaia/v7/app"
 	evmosapp "github.com/evmos/evmos/v6/app"
 )
@@ -58,6 +59,7 @@ func getBasicManagers() []module.BasicManager {
 	return []module.BasicManager{
 		gaiaapp.ModuleBasics,
 		evmosapp.ModuleBasics,
+		spikeapp.ModuleBasics,
 	}
 }
 

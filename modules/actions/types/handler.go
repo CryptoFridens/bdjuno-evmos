@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/forbole/juno/v3/node"
+	"github.com/Fueav/juno/node"
 
 	modulestypes "github.com/forbole/bdjuno/v3/modules/types"
 )

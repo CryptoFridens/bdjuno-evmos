@@ -4,16 +4,16 @@ import (
 	"github.com/forbole/bdjuno/v3/modules/actions"
 	"github.com/forbole/bdjuno/v3/modules/types"
 
-	"github.com/forbole/juno/v3/modules/pruning"
-	"github.com/forbole/juno/v3/modules/telemetry"
+	"github.com/Fueav/juno/modules/pruning"
+	"github.com/Fueav/juno/modules/telemetry"
 
 	"github.com/forbole/bdjuno/v3/modules/slashing"
 
+	jmodules "github.com/Fueav/juno/modules"
+	"github.com/Fueav/juno/modules/messages"
+	"github.com/Fueav/juno/modules/registrar"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	jmodules "github.com/forbole/juno/v3/modules"
-	"github.com/forbole/juno/v3/modules/messages"
-	"github.com/forbole/juno/v3/modules/registrar"
 
 	"github.com/forbole/bdjuno/v3/utils"
 

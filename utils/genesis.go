@@ -3,8 +3,8 @@ package utils
 import (
 	"fmt"
 
-	"github.com/forbole/juno/v3/node"
-	"github.com/forbole/juno/v3/types/config"
+	"github.com/Fueav/juno/node"
+	"github.com/Fueav/juno/types/config"
 	tmjson "github.com/tendermint/tendermint/libs/json"
 	tmos "github.com/tendermint/tendermint/libs/os"
 	tmtypes "github.com/tendermint/tendermint/types"

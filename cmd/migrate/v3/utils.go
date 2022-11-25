@@ -6,7 +6,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/forbole/juno/v3/types/config"
+	"github.com/Fueav/juno/types/config"
 	"gopkg.in/yaml.v3"
 )
 
